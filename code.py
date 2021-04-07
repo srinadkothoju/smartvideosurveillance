@@ -41,7 +41,7 @@ import imutils
 
 from imutils import paths
 
-os.environ["PYTHONPATH"] ="C:/Users/MAHESH/AppData/Local/Programs/Python/Python36/Lib/site-packages"
+os.environ["PYTHONPATH"] ="<add_your_path_to_python location>"
 
 
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
@@ -249,7 +249,7 @@ def detectface() :
     # initialize the video stream and pointer to output video file, then
     # allow the camera sensor to warm up
     print("[INFO] starting video stream...")
-    url= "http://192.168.43.74:8080/video"
+    #url= "http://192.168.43.74:8080/video"
     vs = cv2.VideoCapture(0)
     time.sleep(2.0)
     global name
